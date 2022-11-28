@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <!-- defer - логический атрибут, указывающий браузеру, 
+        что скрипт должен выполняться после разбора документа, 
+        но до события DOMContentLoaded -->
+    <script defer src="main.js"></script>
+    <title>Приложения</title>
+</head>
+
+<body>
+    <div class="flexbox">
+        <div class="header">
+            <div class="container text-center">
+                <p class="header-name"><a href="../index.html">Вернуться на главную страницу</a></p>
+            </div>
+        </div>
+
+        <div class="main">
+            <div id="game">
+                <h1>"Крестики-нолики"</h1>
+                <div class="messages"></div>
+                <div id="board"></div>
+                <button class="new-game-btn">Новая игра</button>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="container text-center">
+                <p>AF &#169;</p>
+            </div>
+        </div>
+    </div>
+    <div class="warning-not-visible text-center">
+        Пожалуйста, используйте вертикальную ориентацию смартфона
+    </div>
+</body>
+
+</html>

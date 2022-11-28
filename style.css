@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+:root {
+  font-size: 17px;
+  font-weight: 300;
+}
+
+
+*{
+    font-family: "Source Sans Pro", helvetica Neue, sans-serif;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 300;
+  }
+
+
+* {
+    margin: 0px;
+}
+
+body {
+    background: linear-gradient(to bottom right, #360c4e, #a32c68);
+}
+
+.container {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header,
+.footer {
+    background-color: rgb(23, 7, 46);
+    color: white;
+    padding: 60px;
+    text-align: center;
+}
+
+.header {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.header-name {
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+.main {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.game-menu {
+    font-size: 3rem;
+}
+
+.game-menu ul {
+    list-style: none;
+    margin: 30px 0;
+}
+
+.game-menu ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.game-menu ul li {
+    padding: 10px;
+    border: 10px solid gray;
+    border-radius: 25px;
+    background-color: lightgray;
+    margin-bottom: 20px;
+}
+
+.game-menu li:hover {
+    border-color: green;
+    background-color: lightgreen;
+}
+
+.footer {
+    font-size: 1.5rem;
+    padding: 15px;
+}
+
+.warning-not-visible{
+    display: none;
+}

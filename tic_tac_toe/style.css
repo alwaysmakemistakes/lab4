@@ -1,0 +1,153 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+:root {
+  font-size: 17px;
+  font-weight: 300;
+}
+
+
+*{
+    font-family: "Source Sans Pro", helvetica Neue, sans-serif;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 300;
+  }
+
+* {
+    margin: 0px;
+}
+
+body {
+    background: linear-gradient(to bottom right, #360c4e, #a32c68);
+}
+
+.container {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header,
+.footer {
+    background-color: rgb(23, 7, 46);
+    color: white;
+}
+
+.header {
+    padding-bottom: 30px;
+}
+
+.header-name {
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+.header-name a {
+    font-size: 3rem;
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 95%;
+    margin: 0 auto;
+    color: white;
+}
+
+.game-menu {
+    font-size: 3rem;
+}
+
+.footer {
+    font-size: 1.5rem;
+    padding: 15px;
+}
+
+/* by index  */
+
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#game {
+    max-height: 900px;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+#game h1{
+    font-size: 4rem;
+    margin-bottom: 25px;
+}
+
+/* игровое поле */
+#board {
+    width: 320px;
+    height: 320px;
+    margin: 10px auto;
+    border: 10px solid rgb(99, 2, 179);
+}
+
+.cell {
+    border: 2px solid black;
+    float: left;
+    width: 100px;
+    height: 100px;
+    font-size: 70px;
+}
+
+.cell:hover{
+    background-color: lightslategray;;
+}
+
+.new-game-btn{
+    font-size: 2rem;;
+    border: 10px solid rgba(255, 255, 255, 0.452);
+    border-radius:40px;
+    background-color:  rgb(99, 2, 179);
+    padding:10px;
+    margin-top:20px;
+    color: white;
+}
+
+.msg {
+    font-size: 2em;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid transparent;
+}
+
+.success {
+    background-color: lightgreen;
+    color: darkgreen;
+    border-color: darkgreen;
+}
+
+.danger {
+    background-color: lightcoral;
+    color: darkred;
+    border-color: darkred;
+}
+
+.warning-not-visible{
+    display: none;
+}

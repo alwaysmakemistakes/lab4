@@ -1,0 +1,167 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+:root {
+  font-size: 17px;
+  font-weight: 300;
+}
+
+
+*{
+    font-family: "Source Sans Pro", helvetica Neue, sans-serif;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 300;
+  }
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: linear-gradient(to bottom right, #360c4e, #a32c68);
+}
+
+.container {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header,
+.footer {
+    background-color: rgb(23, 7, 46);
+    color: white;
+}
+
+.header {
+    padding-bottom: 30px;
+}
+
+.header-name {
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+.header-name a {
+    font-size: 3rem;
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 95%;
+    margin: 0 auto;
+    color: white;
+}
+
+.footer {
+    font-size: 1.5rem;
+    padding: 15px;
+}
+
+/* конец наследуемого кода от главной страницы */
+
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.warning-not-visible{
+    display: none;
+}
+
+/* Оформление калькулятора */
+.calculator {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.h1-calculator {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.calc-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 20em;
+    height: 19.5em;
+    margin: 1.5em auto;
+    padding: 0.5em;
+    background-color: darkgray;
+    border-radius: 1em;
+    border: 0.5em groove black;
+}
+
+#screen {
+    text-align: right;
+    font-size: 2em;
+    min-height: 1.4em;
+    margin: 0.4em;
+    padding: 0.1em;
+    border: 0.2em solid black;
+    border-radius: 0.4em;
+    background-color: lightgray;
+}
+
+.buttons {
+    display: flex;
+    margin: 0.8em;
+}
+
+.key {
+    font-size: 2em;
+    font-weight: bold;
+    width: 1.3em;
+    height: 1.3em;
+    border-radius: 50%;
+}
+
+.key:hover {
+    border-color: green;
+    background-color: lightslategray;
+}
+
+.result:hover{
+    background-color: lightgreen;
+}
+
+.clear:hover{
+    background-color: red;
+}
+
+.digits {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55em;
+    border-right: 0.3em solid black;
+}
+
+.other {
+    width: 40%;
+    margin-left: 0.45em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55em;
+}
